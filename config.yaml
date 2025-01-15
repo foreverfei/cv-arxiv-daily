@@ -22,18 +22,16 @@ md_wechat_path: './docs/wechat.md'
 
 # keywords to search
 keywords:
-    "SLAM": 
-        filters: ["SLAM", "Visual Odometry"]
-    "SFM":
-        filters: ["SFM", "Structure from Motion"]
-    "Visual Localization":
-        filters: ["Visual Localization","Camera Localization",
-                  "Camera Re-localisation","Loop Closure Detection",
-                  "visual place recognition","image retrieval"]
-    "Keypoint Detection":
+    "Image Restoration": 
+        filters: ["Image Restoration", "Image Enhancement"]
+    "ALL-IN-ONE Image Restoration":
+        filters: ["all-in-one", "all-in-one Image Restoration", "multi-degraded image restoration"]
+    "3DGAS":
+        filters: ["3DGAS","2DGAS", "NERF"]
+    "LLM":
         filters: ["Keypoint Detection", "Feature Descriptor"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
-    "NeRF":
-        filters: ["NeRF"]
+    "IQA":
+        filters: ["IQA", "No-IQA", 
+                  "image iqa", "video iqa"]
+    "Difffusion":
+        filters: ["diffusion image restoration"]
